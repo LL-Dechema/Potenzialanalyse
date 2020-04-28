@@ -1,5 +1,7 @@
 <html>
+  
 <head>
+  
   <meta charset="utf-8">
   <title>Potenzialanalyse</title>
   /*leaflet CSS*/
@@ -11,12 +13,15 @@
    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
    crossorigin=""></script>
   </head>
+  
 <body>
   /*map div*/
   <div id="map" style="width: 705px; height: 375px"></div>
   <script>
     /* Create variable to hold map element, give initial settings to map*/
-    var map = L.map('map',{ center: [42.362432, -71.086086], zoom: 14});
+    var map = L.map('map',{ center: [51.65892, 6.41601], zoom: 5});
+    // Add OpenStreetMap tile layer to map element
+    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(map);
   </script>  
 </body>
 </html>
