@@ -10,6 +10,8 @@
    crossorigin=""></script>
  <div id="mapid"></div>
 #mapid { height: 180px; }
+/*initialize the map and set its view to our chosen geographical coordinates*/
+var mymap = L.map('mapid').setView([51.505, -0.09], 13);
 </head>
 
 </html>
