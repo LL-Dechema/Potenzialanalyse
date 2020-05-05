@@ -2,7 +2,6 @@
 		xmlns="http://www.w3.org/2000/svg">
 		<defs>
 			<!-- Symbol definition -->
-
 			<symbol id="icon-folder-plus" viewbox="0 0 32 32">
 
 				<title>folder-plus</title>
