@@ -1,6 +1,6 @@
 /* Create variable to hold map element, give initial settings to map */
 
-    var map = L.map('map',{ center: [51.65892, 6.41601], zoom: 10});
+    var map = L.map('map',{ center: [51.65892, 6.41601], zoom: 5});
 
     /* Add OpenStreetMap tile layer to map element */
 
